@@ -9,7 +9,7 @@ Multiscale retinex filter for image color restoration implemented in Python.
 * OpenCV
 
 ## How to
-Create a folder named 'images' in the same directory as the python codes. Place all the input files inside the 'images' folder.
+Create a folder named 'images' in the same directory as the python codes. Place all the input files inside the 'images' folder. The results will be saved to a folder named 'output'.
 
 Parameters of the retinex filter can be changed in 'run.py', the variables under the comment 'contants'
 

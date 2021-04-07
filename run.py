@@ -35,7 +35,8 @@ for img in img_list:
         continue
     print(str(img) + "...")
     out = msr.MSRCR(image, sig_list, G, b, a, bet, w, k)
-    loc = out_folder + "/msr_" + str(img)
+    # loc = out_folder + "/msr_" + str(img)
+    loc = os.path.join(out_folder, "msr_" + img)
     iw = cv2.imwrite(loc, out)
     if(iw):
         print("image saved to " + loc)
